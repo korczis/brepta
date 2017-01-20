@@ -8,7 +8,7 @@ router.post('/', koaBody, function *(next) {
     if (this.request.body && this.request.body.msg) {
         var msg = this.request.body.msg;
 
-        var cmd = 'espeak -v czech -a1000 "' + msg + "';
+        var cmd = 'espeak -v czech -a1000 "' + msg + '"';
 
         exec(cmd, function(error, stdout, stderr) {
             // command output is in stdout
