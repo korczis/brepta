@@ -1,0 +1,28 @@
+{
+  "name": "brepta",
+  "version": "0.0.1",
+  "description": "TTS via REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korczis/brepta.git"
+  },
+  "keywords": [
+    "tts",
+    "rest"
+  ],
+  "author": "Tomas Korcak <korczis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/korczis/brepta/issues"
+  },
+  "homepage": "https://github.com/korczis/brepta#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-body": "^1.6.0",
+    "koa-router": "^5.4.0"
+  }
+}
